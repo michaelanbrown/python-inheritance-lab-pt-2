@@ -7,3 +7,4 @@ class Student:
 
 class ChattyStudent(Student):
     def hello(self):
+        super().hello()
