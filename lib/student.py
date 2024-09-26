@@ -6,4 +6,4 @@ class Student:
         print("Pick me!")
 
 class ChattyStudent(Student):
-    pass
+    def hello(self):
